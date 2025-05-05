@@ -1,8 +1,8 @@
 "use client";
-import { FaLocationArrow } from "react-icons/fa6";
+
 
 import { socialMedia } from "@/Data/index";
-import MagicButton from "@/components/ui/MagicButton";
+
 
 const Footer = () => {
     const currentYear = new Date().getFullYear();

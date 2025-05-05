@@ -85,12 +85,13 @@ export const BentoGridItem = ({
       <div className={`${id === 6 && "flex justify-center"} h-full`}>
         <div className="w-full h-full absolute">
           {img && (
+            // eslint-disable-next-line @next/next/no-img-element
             <img
               src={img}
               alt={img}
               className={cn(imgClassName, "object-cover object-center")}
               style={{ objectFit: "cover" }}
-              layout="fill"
+            
             />
           )}
         </div>
