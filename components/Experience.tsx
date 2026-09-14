@@ -2,6 +2,7 @@ import React from "react";
 
 import { workExperience } from "@/Data/index";
 import { Button } from "@/components/ui/MovingBorders";
+import VisionVertexExperience from "@/components/VisionVertexExperience";
 
 const Experience = () => {
   return (
@@ -46,6 +47,7 @@ const Experience = () => {
           </Button>
         ))}
       </div>
+      <VisionVertexExperience />
     </div>
   );
 };

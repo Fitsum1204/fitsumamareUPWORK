@@ -165,6 +165,27 @@ export const navItems = [
     },
     
   ];
+
+  export const visionVertexApps = [
+    {
+      id: 1,
+      title: "VISION FINANCE",
+      role: "Frontend Development",
+      stack: ["Next.js", "TypeScript", "TanStack Query", "Zustand"],
+    },
+    {
+      id: 2,
+      title: "VISION HR",
+      role: "Frontend Development",
+      stack: ["Next.js", "TypeScript", "TanStack Query", "Zustand"],
+    },
+    {
+      id: 3,
+      title: "IN-HOUSE CRM",
+      role: "Backend Development & Testing",
+      stack: ["Express.js", "PostgreSQL", "Prisma", "RBAC", "Redis", "Docker", "Vitest"],
+    },
+  ];
   
   export const socialMedia = [
     {
