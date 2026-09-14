@@ -86,9 +86,6 @@ const VisionVertexExperience = () => {
           Source code and detailed screenshots are not publicly available
           because this is a private company project.
         </p>
-        <p className="text-white-100 mt-3 font-semibold">
-          This is completely normal and actually signals professionalism.
-        </p>
       </div>
     </div>
   );
